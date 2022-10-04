@@ -1,0 +1,136 @@
+body {
+	background-color: #000000;
+	color: #00FFD7;
+	text-align: center;
+}
+
+header {
+	color: #00FFD7;
+	background: linear-gradient(135deg, #00FFD7, #000000 33%);
+	line-height: 400%;
+	display: flex;
+	justify-content: space-between;
+
+}
+
+nav {
+	float: left;
+	font-size: 100%;
+	font-weight: bold;
+	width: 160px;
+}
+
+nav a {
+	text-decoration: none;
+	color: #000000;
+	transition: color 2s linear;
+}
+
+nav a:hover {
+	color: purple;
+}
+
+.sig1 {
+	background-image: url(images/sig-black.png);
+	background-size: 150px;
+	width: 200px;
+	height: 100px;
+	background-repeat: no-repeat;
+
+}
+
+.sig2 {
+	background-image: url(images/Sig.png);
+	background-size: 150px;
+	width: 150px;
+	background-repeat: no-repeat;
+}
+
+ul {
+	align-content: center;
+	list-style-position: inside;
+}
+
+#wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	background: rgb(0,0,0);
+	background: linear-gradient(135deg, rgba(45,255,215,1) 0%, rgba(0,0,0,1) 15%);
+	border: 1px solid #000000;
+	width: 100%;
+	box-shadow: 3px 3px 3px #000000;
+	min-width: 960px;
+	max-width: 2048px;
+	padding-top: 0%;
+
+}
+
+main {
+	background-color: #000000;
+	margin-left: 190px;
+	display: block;
+	overflow: auto;
+}
+
+footer {
+	margin-left: 190px;
+	background-color: #000000;
+	display: block;
+	overflow: auto;
+}
+
+table {
+	border: 1px solid #00FFD7;
+	align-items: center;
+	border-spacing: 0px;
+
+}
+
+th, td {
+	border: 1px #00FFD7;
+	padding: 0.5em;
+}
+
+.black-border{
+	border: 1px solid #000000;
+	color: #000000;
+	background-color: #00FEE9;
+}
+
+.blue-border{
+	border: 1px solid #00FEE9;
+	color: #00FEE9;
+	background-color:  #000000;
+}
+
+#special {
+	clear: both;
+}
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+label {
+	float: left;
+	display: block;
+	text-align: right;
+	width: 140px;
+	padding-right: 5px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+input {
+	display: block;
+	margin-bottom: 20px;
+}
+
+textarea {
+	display: block;
+	margin-bottom: 20px;
+}
+input[type="submit"] {
+	margin-left: 140px;
+}
